@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div className="h-screen text-white bg-neutral-900 overflow-hidden">
-        <div className="container mx-auto p-2 h-full">
-            <div className="flex h-full">
-                <PlayerContainer />
-                <SongsListContainer />
-            </div>
+      <div className="container mx-auto p-2 h-full">
+        <div className="grid gap-5 grid-cols-2 h-full">
+          <PlayerContainer />
+          <SongsListContainer />
         </div>
+      </div>
     </div>
   );
 }
